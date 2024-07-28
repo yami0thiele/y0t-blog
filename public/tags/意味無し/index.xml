@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>意味無し on 堕天現象論</title>
+    <link>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</link>
+    <description>Recent content in 意味無し on 堕天現象論</description>
+    <image>
+      <title>堕天現象論</title>
+      <url>http://localhost:1313/twitter-card.jpg</url>
+      <link>http://localhost:1313/twitter-card.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 28 Jul 2024 23:33:21 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>転生 N 回目の最初の投稿</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sun, 28 Jul 2024 23:33:21 +0900</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>要約 性懲りもなくブログつくりました。 だらだらやります。 なにこれ インターネット上に半分以上をつぎ込んでいる謎存在がとりとめもないことを書くよ。目的別のブログを何度かやってみたけど何も続かなかったからテーマは何もないよ。</description>
+    </item>
+  </channel>
+</rss>

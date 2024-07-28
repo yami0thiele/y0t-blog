@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 堕天現象論</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on 堕天現象論</description>
+    <image>
+      <title>堕天現象論</title>
+      <url>http://localhost:1313/twitter-card.jpg</url>
+      <link>http://localhost:1313/twitter-card.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 28 Jul 2024 23:33:21 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>意味無し</title>
+      <link>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</link>
+      <pubDate>Sun, 28 Jul 2024 23:33:21 +0900</pubDate>
+      <guid>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
