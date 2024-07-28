@@ -48,6 +48,10 @@ params:
     favicon32x32: 'favicon-32x32.png'
     apple_touch_icon: 'apple-touch-icon.png'
 
+  homeInfoParams:
+    Title: 仮想化開発局
+    Content: 現実から仮想への堕ちた存在は、他の存在の仮想化を推進することにした。
+
   socialIcons:
     - name: x
       url: 'https://x.com/dark_thiele'
@@ -58,7 +62,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: 'https://github.com/yami0thiele/y0t-blog/content'
+    URL: 'https://github.com/yami0thiele/y0t-blog/blob/master/content'
     Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 
