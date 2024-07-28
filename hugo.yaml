@@ -20,7 +20,7 @@ params:
   author: yami0thiele
   # author: ["Me", "You"] # multiple authors
   images: ['twitter-card.jpg']
-  DateFormat: '2023-10-15T13:18:50+0900'
+  DateFormat: '2023-10-15T13:18:50+09:00'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
