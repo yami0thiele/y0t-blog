@@ -1,5 +1,5 @@
 baseURL: https://daily.virt-eng.com
-languageCode: ja-JP
+languageCode: ja
 title: 堕天現象論
 theme: PaperMod
 
@@ -20,7 +20,7 @@ params:
   author: yami0thiele
   # author: ["Me", "You"] # multiple authors
   images: ['twitter-card.jpg']
-  DateFormat: '2023-10-15T13:18:50+09:00'
+  DateFormat: '2006年 Jan 2日'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -94,3 +94,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+DefaultContentLanguage: ja
