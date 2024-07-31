@@ -3,7 +3,7 @@ languageCode: ja
 title: 堕天現象論
 theme: PaperMod
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: true
 buildExpired: false
