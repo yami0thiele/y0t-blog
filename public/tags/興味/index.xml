@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>興味 on 堕天現象論</title>
+    <link>http://localhost:1313/tags/%E8%88%88%E5%91%B3/</link>
+    <description>Recent content in 興味 on 堕天現象論</description>
+    <image>
+      <title>堕天現象論</title>
+      <url>http://localhost:1313/twitter-card.jpg</url>
+      <link>http://localhost:1313/twitter-card.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 07 Aug 2024 21:58:22 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%88%88%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最近の興味について (2024年8月)</title>
+      <link>http://localhost:1313/posts/my-recent-interest-202408/</link>
+      <pubDate>Wed, 07 Aug 2024 21:58:22 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-recent-interest-202408/</guid>
+      <description>いろいろ見ててやりたくなったものをつらつら。
+興味のあるトピック Generative Art LISP 組み込み リバースエンジニアリング SQLite テーマ ノードをつなげてつくる Generative Art 円を描画するとか、再帰とか、何かノードを定義してそれを繋げて実行すれば何らかの画像が生成されるってもの。
+SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高いしそうはいっても自分でちゃんと面倒みるのいやなので、安くて楽な手段がほしい。上記構成が面白そうなので調べる。
+パスワードマネージャー (プリントベース) いつでもどこでもパスワードマネージャが使えるわけじゃないので、紙に払い出す手段はほしい。 ようするに「パスワード管理カード」みたいなのを生成する仕組みと、人間にとってそこまで大変ではない方法でパスワードを抽出する手段を生成・保管する仕組みを作る。
+おわりに 本当にやるかどうかは未定。
+以上！</description>
+    </item>
+  </channel>
+</rss>
