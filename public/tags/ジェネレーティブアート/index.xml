@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ジェネレーティブアート on 堕天現象論</title>
+    <link>http://localhost:1313/tags/%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%82%A2%E3%83%BC%E3%83%88/</link>
+    <description>Recent content in ジェネレーティブアート on 堕天現象論</description>
+    <image>
+      <title>堕天現象論</title>
+      <url>http://localhost:1313/twitter-card.jpg</url>
+      <link>http://localhost:1313/twitter-card.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 08 Aug 2024 21:53:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%82%A2%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
+      <link>http://localhost:1313/posts/my-first-p5js/</link>
+      <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-first-p5js/</guid>
+      <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。
+以上！</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Aug 2024 21:58:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 21:53:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
+      <link>http://localhost:1313/posts/my-first-p5js/</link>
+      <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-first-p5js/</guid>
+      <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。
+回りくどい AI 生成画像（？）
+コード 変えたのは 三角形のサイズと rotation の箇所くらい。 random(4) * HALF_PI だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。
+random(2) * PI だと秩序が見えすぎたから無駄なことしてる。
+function setup() { createCanvas(600, 600); noStroke(); } function draw() { // 色の配列 const colors = [&amp;#39;#E9C46A&amp;#39;, &amp;#39;#F4A261&amp;#39;, &amp;#39;#E76F51&amp;#39;, &amp;#39;#2A9D8F&amp;#39;, &amp;#39;#264653&amp;#39;]; let size = 50; // 三角形のサイズ for (let x = 0; x &amp;lt; width; x += size) { for (let y = 0; y &amp;lt; height; y += size) { // ランダムに色を選ぶ let randomIndex = floor(random(colors.</description>
+    </item>
     <item>
       <title>最近の興味について (2024年8月)</title>
       <link>http://localhost:1313/posts/my-recent-interest-202408/</link>
