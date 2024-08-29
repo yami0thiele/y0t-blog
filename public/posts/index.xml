@@ -11,8 +11,24 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Aug 2024 21:53:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 21:50:22 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最近の興味について (2024年9月)</title>
+      <link>http://localhost:1313/posts/my-recent-interest-202409/</link>
+      <pubDate>Thu, 29 Aug 2024 21:50:22 +0900</pubDate>
+      <guid>http://localhost:1313/posts/my-recent-interest-202409/</guid>
+      <description>正直 http://localhost:1313/posts/my-recent-interest-202408/ で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。
+興味のあるトピック Rust (New!) LISP Generative Art リバースエンジニアリング ホームラボ (New!) Fullstack TypeScript Vite + React + Tanstack Router / Tailwind Hono 読みたいもの 手元にあるかネット上にあるので読んでおきたいものたち。
+Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構造と解釈 基礎から学ぶ組込み Rust ジェネラティブ・アート Processing による実践ガイド テーマ マスタデータ管理ツール マスタデータ自体が何らかの 1 対多 の関係をもっていて、それが何らかのサロゲートキーで関連づいているときにそのマスタデータのメンテナンスが面倒だなっていう所管。
+マスタデータに関連する ER 図を書いたらいい感じにマスタデータの登録フォームとビジュアル化＋クエリでのエクスポートをしてくれるようなのがほしい。
+-&amp;gt; そもそも前段として、Entity からそのままフォームを起こすくらいのことをやってみる。何も難しくないはず。
+アイキャッチ画像生成 (Generative Art) http://localhost:1313/posts/my-first-p5js/ は結果的にそうなったわけだけど、記事に 1 枚くらい画像がほしいし Twitter Card 的なところに出てくるような画像がほしい。
+このブログにおいては記事に当てはまる画像というのが定まることはないので、何か適当に幾何学的なのがあればいい。 ということで用意する。
+記事全体から導出したなにかを生成の過程に突っ込めば実質的に記事に対する署名になる（？）
+おわりに 今月ひどく体調崩してたので 9 月は健康でいたいですね。
+以上！</description>
+    </item>
     <item>
       <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
       <link>http://localhost:1313/posts/my-first-p5js/</link>
