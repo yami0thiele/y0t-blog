@@ -11,19 +11,31 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Aug 2024 21:50:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 20:52:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>主権を取り戻すこととセルフホスト</title>
+      <link>http://localhost:1313/posts/20240907_self-host/</link>
+      <pubDate>Sat, 07 Sep 2024 20:52:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20240907_self-host/</guid>
+      <description>主権 検索内容やらアップロードしたものやらから私をパーソナライズ化されたり。それに合わせて広告で私の趣味を「でっちあげようと」したり。 巨悪に支配されている世の中で、その支配からちょっと逃れるための方法を考える。
+セルフホスト 秋葉原で手に入れたそれなりのジャンクのパソコンに Proxmox を入れて、いくつか VM/LXC を作り、その上でいくらかのサービスを動かす。
+現在動かしていてよく使っているのは以下の通り:
+サービス 用途 Nextcloud ファイルの同期 pi-hole 広告やトラッキングのブロック Miniflux RSS リーダー outline 知識の蓄積、雑多なメモ ルーターが VPN クライアントとしての機能を持っているので、ISP すら私のやり取りしているデータがわからないはず。
+いい感じに隠れていたい。
+以上！</description>
+    </item>
+    <item>
       <title>最近の興味について (2024年9月)</title>
-      <link>http://localhost:1313/posts/my-recent-interest-202409/</link>
+      <link>http://localhost:1313/posts/20240829_my-recent-interest-202409/</link>
       <pubDate>Thu, 29 Aug 2024 21:50:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-recent-interest-202409/</guid>
-      <description>正直 http://localhost:1313/posts/my-recent-interest-202408/ で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。
+      <guid>http://localhost:1313/posts/20240829_my-recent-interest-202409/</guid>
+      <description>正直 8 月の興味 で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。
 興味のあるトピック Rust (New!) LISP Generative Art リバースエンジニアリング ホームラボ (New!) Fullstack TypeScript Vite + React + Tanstack Router / Tailwind Hono 読みたいもの 手元にあるかネット上にあるので読んでおきたいものたち。
 Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構造と解釈 基礎から学ぶ組込み Rust ジェネラティブ・アート Processing による実践ガイド テーマ マスタデータ管理ツール マスタデータ自体が何らかの 1 対多 の関係をもっていて、それが何らかのサロゲートキーで関連づいているときにそのマスタデータのメンテナンスが面倒だなっていう所管。
 マスタデータに関連する ER 図を書いたらいい感じにマスタデータの登録フォームとビジュアル化＋クエリでのエクスポートをしてくれるようなのがほしい。
 -&amp;gt; そもそも前段として、Entity からそのままフォームを起こすくらいのことをやってみる。何も難しくないはず。
-アイキャッチ画像生成 (Generative Art) http://localhost:1313/posts/my-first-p5js/ は結果的にそうなったわけだけど、記事に 1 枚くらい画像がほしいし Twitter Card 的なところに出てくるような画像がほしい。
+アイキャッチ画像生成 (Generative Art) p5.js を使ってアルゴリズムで画像を生成する は結果的にそうなったわけだけど、記事に 1 枚くらい画像がほしいし Twitter Card 的なところに出てくるような画像がほしい。
 このブログにおいては記事に当てはまる画像というのが定まることはないので、何か適当に幾何学的なのがあればいい。 ということで用意する。
 記事全体から導出したなにかを生成の過程に突っ込めば実質的に記事に対する署名になる（？）
 おわりに 今月ひどく体調崩してたので 9 月は健康でいたいですね。
@@ -31,9 +43,9 @@ Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構�
     </item>
     <item>
       <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
-      <link>http://localhost:1313/posts/my-first-p5js/</link>
+      <link>http://localhost:1313/posts/20240808_my-first-p5js/</link>
       <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-first-p5js/</guid>
+      <guid>http://localhost:1313/posts/20240808_my-first-p5js/</guid>
       <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。
 回りくどい AI 生成画像（？）
 コード 変えたのは 三角形のサイズと rotation の箇所くらい。 random(4) * HALF_PI だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。
@@ -42,9 +54,9 @@ function setup() { createCanvas(600, 600); noStroke(); } function draw() { // �
     </item>
     <item>
       <title>最近の興味について (2024年8月)</title>
-      <link>http://localhost:1313/posts/my-recent-interest-202408/</link>
+      <link>http://localhost:1313/posts/20240807_my-recent-interest-202408/</link>
       <pubDate>Wed, 07 Aug 2024 21:58:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-recent-interest-202408/</guid>
+      <guid>http://localhost:1313/posts/20240807_my-recent-interest-202408/</guid>
       <description>いろいろ見ててやりたくなったものをつらつら。
 興味のあるトピック Generative Art LISP 組み込み リバースエンジニアリング SQLite テーマ ノードをつなげてつくる Generative Art 円を描画するとか、再帰とか、何かノードを定義してそれを繋げて実行すれば何らかの画像が生成されるってもの。
 SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高いしそうはいっても自分でちゃんと面倒みるのいやなので、安くて楽な手段がほしい。上記構成が面白そうなので調べる。

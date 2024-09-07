@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>狂気の祝詞を届けるよ</title>
-      <link>http://localhost:1313/posts/luna-blessing/</link>
+      <link>http://localhost:1313/posts/20240801_luna-blessing/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/luna-blessing/</guid>
+      <guid>http://localhost:1313/posts/20240801_luna-blessing/</guid>
       <description>考える私自身というものはいつでも真であるといえるかもしれないが、そしてそうであれば仮想に身をやつす私は真なのかもしれないが、本当にそうだろうか？
 自分らしさというものを現実で発揮できないでいる存在は、より、自分らしさを表現できると思われる仮想で、さて、どれだけの嘘をそこに隠したのだろうね。
 &amp;hellip;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>Androidは記事作成に使えるのか？</title>
-      <link>http://localhost:1313/posts/edit-from-android/</link>
+      <link>http://localhost:1313/posts/20240729_edit-from-android/</link>
       <pubDate>Mon, 29 Jul 2024 05:19:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/edit-from-android/</guid>
+      <guid>http://localhost:1313/posts/20240729_edit-from-android/</guid>
       <description>文章作成環境 このブログは Hugo という 静的サイトジェネレータ が markdown を元に 作成した HTML を配置することでできている。
 markdown からの HTML の生成は origin/master にコミットが行われたときに Cloudflare Pages の方で行われるので、markdown が書けて git commit と git push さえできれば記事が書けるということになる。
 それくらいなら手持ちのAndroidタブレット (POCO Pad) を使ってできるんじゃないかということで試してみる。今回使ってみたのが 「Spck エディター」というもの。何かJavaScriptくらいなら動かせるらしいが (Node.js?)、ここでは試さない。
@@ -37,9 +37,9 @@ markdown からの HTML の生成は origin/master にコミットが行われ�
     </item>
     <item>
       <title>転生 N 回目の最初の投稿</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>http://localhost:1313/posts/20240728_first-post/</link>
       <pubDate>Sun, 28 Jul 2024 23:33:21 +0900</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/20240728_first-post/</guid>
       <description>要約 性懲りもなくブログつくりました。 だらだらやります。 なにこれ インターネット上に半分以上をつぎ込んでいる謎存在がとりとめもないことを書くよ。目的別のブログを何度かやってみたけど何も続かなかったからテーマは何もないよ。</description>
     </item>
   </channel>

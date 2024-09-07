@@ -11,13 +11,25 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Aug 2024 21:50:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 20:52:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>主権を取り戻すこととセルフホスト</title>
+      <link>http://localhost:1313/posts/20240907_self-host/</link>
+      <pubDate>Sat, 07 Sep 2024 20:52:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20240907_self-host/</guid>
+      <description>主権 検索内容やらアップロードしたものやらから私をパーソナライズ化されたり。それに合わせて広告で私の趣味を「でっちあげようと」したり。 巨悪に支配されている世の中で、その支配からちょっと逃れるための方法を考える。
+セルフホスト 秋葉原で手に入れたそれなりのジャンクのパソコンに Proxmox を入れて、いくつか VM/LXC を作り、その上でいくらかのサービスを動かす。
+現在動かしていてよく使っているのは以下の通り:
+サービス 用途 Nextcloud ファイルの同期 pi-hole 広告やトラッキングのブロック Miniflux RSS リーダー outline 知識の蓄積、雑多なメモ ルーターが VPN クライアントとしての機能を持っているので、ISP すら私のやり取りしているデータがわからないはず。
+いい感じに隠れていたい。
+以上！</description>
+    </item>
+    <item>
       <title>最近の興味について (2024年9月)</title>
-      <link>http://localhost:1313/posts/my-recent-interest-202409/</link>
+      <link>http://localhost:1313/posts/20240829_my-recent-interest-202409/</link>
       <pubDate>Thu, 29 Aug 2024 21:50:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-recent-interest-202409/</guid>
+      <guid>http://localhost:1313/posts/20240829_my-recent-interest-202409/</guid>
       <description>正直 8 月の興味 で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。
 興味のあるトピック Rust (New!) LISP Generative Art リバースエンジニアリング ホームラボ (New!) Fullstack TypeScript Vite + React + Tanstack Router / Tailwind Hono 読みたいもの 手元にあるかネット上にあるので読んでおきたいものたち。
 Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構造と解釈 基礎から学ぶ組込み Rust ジェネラティブ・アート Processing による実践ガイド テーマ マスタデータ管理ツール マスタデータ自体が何らかの 1 対多 の関係をもっていて、それが何らかのサロゲートキーで関連づいているときにそのマスタデータのメンテナンスが面倒だなっていう所管。
@@ -31,9 +43,9 @@ Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構�
     </item>
     <item>
       <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
-      <link>http://localhost:1313/posts/my-first-p5js/</link>
+      <link>http://localhost:1313/posts/20240808_my-first-p5js/</link>
       <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-first-p5js/</guid>
+      <guid>http://localhost:1313/posts/20240808_my-first-p5js/</guid>
       <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。
 回りくどい AI 生成画像（？）
 コード 変えたのは 三角形のサイズと rotation の箇所くらい。 random(4) * HALF_PI だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。
@@ -42,9 +54,9 @@ function setup() { createCanvas(600, 600); noStroke(); } function draw() { // �
     </item>
     <item>
       <title>最近の興味について (2024年8月)</title>
-      <link>http://localhost:1313/posts/my-recent-interest-202408/</link>
+      <link>http://localhost:1313/posts/20240807_my-recent-interest-202408/</link>
       <pubDate>Wed, 07 Aug 2024 21:58:22 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-recent-interest-202408/</guid>
+      <guid>http://localhost:1313/posts/20240807_my-recent-interest-202408/</guid>
       <description>いろいろ見ててやりたくなったものをつらつら。
 興味のあるトピック Generative Art LISP 組み込み リバースエンジニアリング SQLite テーマ ノードをつなげてつくる Generative Art 円を描画するとか、再帰とか、何かノードを定義してそれを繋げて実行すれば何らかの画像が生成されるってもの。
 SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高いしそうはいっても自分でちゃんと面倒みるのいやなので、安くて楽な手段がほしい。上記構成が面白そうなので調べる。
@@ -54,9 +66,9 @@ SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高�
     </item>
     <item>
       <title>狂気の祝詞を届けるよ</title>
-      <link>http://localhost:1313/posts/luna-blessing/</link>
+      <link>http://localhost:1313/posts/20240801_luna-blessing/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/luna-blessing/</guid>
+      <guid>http://localhost:1313/posts/20240801_luna-blessing/</guid>
       <description>考える私自身というものはいつでも真であるといえるかもしれないが、そしてそうであれば仮想に身をやつす私は真なのかもしれないが、本当にそうだろうか？
 自分らしさというものを現実で発揮できないでいる存在は、より、自分らしさを表現できると思われる仮想で、さて、どれだけの嘘をそこに隠したのだろうね。
 &amp;hellip;
@@ -66,18 +78,18 @@ SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高�
     </item>
     <item>
       <title>筋トレメニュー初期構築</title>
-      <link>http://localhost:1313/posts/beginning-of-weight-training/</link>
+      <link>http://localhost:1313/posts/20240730_beginning-of-weight-training/</link>
       <pubDate>Tue, 30 Jul 2024 06:38:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/beginning-of-weight-training/</guid>
+      <guid>http://localhost:1313/posts/20240730_beginning-of-weight-training/</guid>
       <description>2024年6月15日から週6で筋トレをやりはじめた。今のところ続いてはいるので、そのメニューを書きます。
 プッシュ -&amp;gt; プル -&amp;gt; レッグ を週6でやっていて、筋トレする日は締めにHIITっぽいものをやっています。
 種目 回数 曜日 備考 ベンチプレス 5rep/3set 水・土 インクラインベンチプレス 5rep/3set 水・土 ミリタリープレス 5rep/3set 水・土 最近増やした ダンベルプレス 10rep/3set 水・土 ダンベルショルダープレス 10rep/3set 水・土 サイドレイズ 10rep/3set 水・土 スカルクラッシャー 10rep/3set 水・土 バーベル怖いのでダンベル デッドリフト 5rep/3set 木・日 アシストチンニング 10rep/3set 木・日 ラットプルダウン 10rep/3set 木・日 シーテッドロウ 10rep/3set 木・日 ダンベルベントオーバーローのかわりに導入 バイセップカール 10rep/3set 木・日 ハンマーカール 10rep/3set 木・日 ぶら下がり (耐えられなくなるまで)/1set 木・日 握力が脆弱だったので鍛えるために バーベルスクワット 5rep/3set 金・月 フロントレッグエレベートスプリットスクワット 10rep/2set(左右) 金・月 最近追加 レッグカール 10rep/3set 金・月 レッグエクステンション 10rep/3set 金・月 カーフレイズ 10rep/3set 金・月 つま先立ちが安定しない スピニングバイク 4 min (平日), 24 min (土日) 火曜日以外 HIITとして。土日は前後 10 minの慣らしあり 脚の日がやったあとしんどいですね。この記事書いている今日は火曜日なので、1週間分の疲れ＋昨日の脚のトレーニングの疲れをとっていきたいと思います。</description>
     </item>
     <item>
       <title>Androidは記事作成に使えるのか？</title>
-      <link>http://localhost:1313/posts/edit-from-android/</link>
+      <link>http://localhost:1313/posts/20240729_edit-from-android/</link>
       <pubDate>Mon, 29 Jul 2024 05:19:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/edit-from-android/</guid>
+      <guid>http://localhost:1313/posts/20240729_edit-from-android/</guid>
       <description>文章作成環境 このブログは Hugo という 静的サイトジェネレータ が markdown を元に 作成した HTML を配置することでできている。
 markdown からの HTML の生成は origin/master にコミットが行われたときに Cloudflare Pages の方で行われるので、markdown が書けて git commit と git push さえできれば記事が書けるということになる。
 それくらいなら手持ちのAndroidタブレット (POCO Pad) を使ってできるんじゃないかということで試してみる。今回使ってみたのが 「Spck エディター」というもの。何かJavaScriptくらいなら動かせるらしいが (Node.js?)、ここでは試さない。
@@ -85,9 +97,9 @@ markdown からの HTML の生成は origin/master にコミットが行われ�
     </item>
     <item>
       <title>転生 N 回目の最初の投稿</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>http://localhost:1313/posts/20240728_first-post/</link>
       <pubDate>Sun, 28 Jul 2024 23:33:21 +0900</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/20240728_first-post/</guid>
       <description>要約 性懲りもなくブログつくりました。 だらだらやります。 なにこれ インターネット上に半分以上をつぎ込んでいる謎存在がとりとめもないことを書くよ。目的別のブログを何度かやってみたけど何も続かなかったからテーマは何もないよ。</description>
     </item>
   </channel>

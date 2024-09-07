@@ -3,39 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-29T21:50:22+09:00</lastmod>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-29T21:50:22+09:00</lastmod>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-29T21:50:22+09:00</lastmod>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB/</loc>
-    <lastmod>2024-08-29T21:50:22+09:00</lastmod>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/</loc>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/20240907_self-host/</loc>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-07T20:52:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E8%88%88%E5%91%B3/</loc>
     <lastmod>2024-08-29T21:50:22+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-recent-interest-202409/</loc>
+    <loc>http://localhost:1313/posts/20240829_my-recent-interest-202409/</loc>
     <lastmod>2024-08-29T21:50:22+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-29T21:50:22+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-p5js/</loc>
+    <loc>http://localhost:1313/posts/20240808_my-first-p5js/</loc>
     <lastmod>2024-08-08T21:53:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%82%A2%E3%83%BC%E3%83%88/</loc>
     <lastmod>2024-08-08T21:53:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-recent-interest-202408/</loc>
+    <loc>http://localhost:1313/posts/20240807_my-recent-interest-202408/</loc>
     <lastmod>2024-08-07T21:58:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</loc>
     <lastmod>2024-08-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/luna-blessing/</loc>
+    <loc>http://localhost:1313/posts/20240801_luna-blessing/</loc>
     <lastmod>2024-08-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/</loc>
@@ -47,13 +53,13 @@
     <loc>http://localhost:1313/tags/%E7%AD%8B%E3%83%88%E3%83%AC/%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC/</loc>
     <lastmod>2024-07-30T06:38:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/beginning-of-weight-training/</loc>
+    <loc>http://localhost:1313/posts/20240730_beginning-of-weight-training/</loc>
     <lastmod>2024-07-30T06:38:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/edit-from-android/</loc>
+    <loc>http://localhost:1313/posts/20240729_edit-from-android/</loc>
     <lastmod>2024-07-29T05:19:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
+    <loc>http://localhost:1313/posts/20240728_first-post/</loc>
     <lastmod>2024-07-28T23:33:21+09:00</lastmod>
   </url>
 </urlset>

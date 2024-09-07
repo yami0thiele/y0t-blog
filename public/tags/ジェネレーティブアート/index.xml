@@ -15,9 +15,9 @@
     <atom:link href="http://localhost:1313/tags/%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%96%E3%82%A2%E3%83%BC%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
-      <link>http://localhost:1313/posts/my-first-p5js/</link>
+      <link>http://localhost:1313/posts/20240808_my-first-p5js/</link>
       <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-first-p5js/</guid>
+      <guid>http://localhost:1313/posts/20240808_my-first-p5js/</guid>
       <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。
 回りくどい AI 生成画像（？）
 コード 変えたのは 三角形のサイズと rotation の箇所くらい。 random(4) * HALF_PI だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>プライバシー on 堕天現象論</title>
+    <link>http://localhost:1313/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/</link>
+    <description>Recent content in プライバシー on 堕天現象論</description>
+    <image>
+      <title>堕天現象論</title>
+      <url>http://localhost:1313/twitter-card.jpg</url>
+      <link>http://localhost:1313/twitter-card.jpg</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 07 Sep 2024 20:52:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>主権を取り戻すこととセルフホスト</title>
+      <link>http://localhost:1313/posts/20240907_self-host/</link>
+      <pubDate>Sat, 07 Sep 2024 20:52:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20240907_self-host/</guid>
+      <description>主権 検索内容やらアップロードしたものやらから私をパーソナライズ化されたり。それに合わせて広告で私の趣味を「でっちあげようと」したり。 巨悪に支配されている世の中で、その支配からちょっと逃れるための方法を考える。
+セルフホスト 秋葉原で手に入れたそれなりのジャンクのパソコンに Proxmox を入れて、いくつか VM/LXC を作り、その上でいくらかのサービスを動かす。
+現在動かしていてよく使っているのは以下の通り:
+サービス 用途 Nextcloud ファイルの同期 pi-hole 広告やトラッキングのブロック Miniflux RSS リーダー outline 知識の蓄積、雑多なメモ ルーターが VPN クライアントとしての機能を持っているので、ISP すら私のやり取りしているデータがわからないはず。
+いい感じに隠れていたい。
+以上！</description>
+    </item>
+  </channel>
+</rss>
