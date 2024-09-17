@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Sep 2024 20:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2024 22:30:24 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブログ本文からの画像生成</title>
+      <link>http://localhost:1313/posts/20240917_signed_by_processing/</link>
+      <pubDate>Tue, 17 Sep 2024 22:30:24 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20240917_signed_by_processing/</guid>
+      <description>画像 この文書の L11 以降、空行までを入力にして生成したのが上記の画像です。 同じ本文に対しては同じ画像を生成してくれるようにしてみました。
+ハッシュ ちょっと入力値が変われば大きく変わる。以下は SHA-1 の例
+こんにちは 20427A708C3F6F07CF12AB23557982D9E6D23B61 こんにちは。 05697358489E881FFDDC0CEF2D78FF4ECF679CB4 これが画像になったらいいなということでやりました。
+ハッシュを元にしたパラメータ 本文のハッシュから以下を決めています。
+図形の描画座標 図形の形 図形の色・透明度 図形のサイズ 1 文字追加するだけでそれなりに違うパターンが得られて好きです。
+証明 結局ただのハッシュなので、先に画像だけ公開してあとから本文を見せることで検証してもらうことである種の証明が出来そうだなと思いつつ。
+以上！</description>
+    </item>
     <item>
       <title>主権を取り戻すこととセルフホスト</title>
       <link>http://localhost:1313/posts/20240907_self-host/</link>
