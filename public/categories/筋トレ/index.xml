@@ -9,7 +9,7 @@
       <url>http://localhost:1313/twitter-card.jpg</url>
       <link>http://localhost:1313/twitter-card.jpg</link>
     </image>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 30 Jul 2024 06:38:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E7%AD%8B%E3%83%88%E3%83%AC/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +18,141 @@
       <link>http://localhost:1313/posts/20240730_beginning-of-weight-training/</link>
       <pubDate>Tue, 30 Jul 2024 06:38:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/20240730_beginning-of-weight-training/</guid>
-      <description>2024年6月15日から週6で筋トレをやりはじめた。今のところ続いてはいるので、そのメニューを書きます。
-プッシュ -&amp;gt; プル -&amp;gt; レッグ を週6でやっていて、筋トレする日は締めにHIITっぽいものをやっています。
-種目 回数 曜日 備考 ベンチプレス 5rep/3set 水・土 インクラインベンチプレス 5rep/3set 水・土 ミリタリープレス 5rep/3set 水・土 最近増やした ダンベルプレス 10rep/3set 水・土 ダンベルショルダープレス 10rep/3set 水・土 サイドレイズ 10rep/3set 水・土 スカルクラッシャー 10rep/3set 水・土 バーベル怖いのでダンベル デッドリフト 5rep/3set 木・日 アシストチンニング 10rep/3set 木・日 ラットプルダウン 10rep/3set 木・日 シーテッドロウ 10rep/3set 木・日 ダンベルベントオーバーローのかわりに導入 バイセップカール 10rep/3set 木・日 ハンマーカール 10rep/3set 木・日 ぶら下がり (耐えられなくなるまで)/1set 木・日 握力が脆弱だったので鍛えるために バーベルスクワット 5rep/3set 金・月 フロントレッグエレベートスプリットスクワット 10rep/2set(左右) 金・月 最近追加 レッグカール 10rep/3set 金・月 レッグエクステンション 10rep/3set 金・月 カーフレイズ 10rep/3set 金・月 つま先立ちが安定しない スピニングバイク 4 min (平日), 24 min (土日) 火曜日以外 HIITとして。土日は前後 10 minの慣らしあり 脚の日がやったあとしんどいですね。この記事書いている今日は火曜日なので、1週間分の疲れ＋昨日の脚のトレーニングの疲れをとっていきたいと思います。</description>
+      <description>&lt;p&gt;2024年6月15日から週6で筋トレをやりはじめた。今のところ続いてはいるので、そのメニューを書きます。&lt;/p&gt;
+&lt;p&gt;プッシュ -&amp;gt; プル -&amp;gt; レッグ を週6でやっていて、筋トレする日は締めにHIITっぽいものをやっています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;種目&lt;/th&gt;
+          &lt;th&gt;回数&lt;/th&gt;
+          &lt;th&gt;曜日&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ベンチプレス&lt;/td&gt;
+          &lt;td&gt;5rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;インクラインベンチプレス&lt;/td&gt;
+          &lt;td&gt;5rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ミリタリープレス&lt;/td&gt;
+          &lt;td&gt;5rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;最近増やした&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ダンベルプレス&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ダンベルショルダープレス&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;サイドレイズ&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スカルクラッシャー&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;水・土&lt;/td&gt;
+          &lt;td&gt;バーベル怖いのでダンベル&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;デッドリフト&lt;/td&gt;
+          &lt;td&gt;5rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;アシストチンニング&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ラットプルダウン&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;シーテッドロウ&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;ダンベルベントオーバーローのかわりに導入&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バイセップカール&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ハンマーカール&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ぶら下がり&lt;/td&gt;
+          &lt;td&gt;(耐えられなくなるまで)/1set&lt;/td&gt;
+          &lt;td&gt;木・日&lt;/td&gt;
+          &lt;td&gt;握力が脆弱だったので鍛えるために&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バーベルスクワット&lt;/td&gt;
+          &lt;td&gt;5rep/3set&lt;/td&gt;
+          &lt;td&gt;金・月&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;フロントレッグエレベートスプリットスクワット&lt;/td&gt;
+          &lt;td&gt;10rep/2set(左右)&lt;/td&gt;
+          &lt;td&gt;金・月&lt;/td&gt;
+          &lt;td&gt;最近追加&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;レッグカール&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;金・月&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;レッグエクステンション&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;金・月&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;カーフレイズ&lt;/td&gt;
+          &lt;td&gt;10rep/3set&lt;/td&gt;
+          &lt;td&gt;金・月&lt;/td&gt;
+          &lt;td&gt;つま先立ちが安定しない&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スピニングバイク&lt;/td&gt;
+          &lt;td&gt;4 min (平日), 24 min (土日)&lt;/td&gt;
+          &lt;td&gt;火曜日以外&lt;/td&gt;
+          &lt;td&gt;HIITとして。土日は前後 10 minの慣らしあり&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;脚の日がやったあとしんどいですね。この記事書いている今日は火曜日なので、1週間分の疲れ＋昨日の脚のトレーニングの疲れをとっていきたいと思います。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

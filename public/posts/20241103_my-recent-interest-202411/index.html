@@ -1,45 +1,88 @@
 <!doctype html><html lang=ja dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>最近の興味について (2024年11月) | 堕天現象論</title>
 <meta name=keywords content="興味"><meta name=description content="気づけば 11 月。１年も早いものですね。
-興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。
+興味のあるトピック
+LISP
+相変わらず。たしかこのブログをはじめたときからずっとあげている。
 お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。
-TLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
-その他 いままであげていた以下のものも適宜&mldr;
-ジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。
+TLA+
+設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
+その他
+いままであげていた以下のものも適宜&mldr;
+
+ジェネラティブ・アート
+パフォーマンス改善
+セキュリティ
+
+プロジェクト
+独学管理サービス
+完全にやりかけなので進める。
 フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。
 SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。
-S 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
-セルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。
-=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを s_ij で表すものとすれば、 s_00 と s_01 の和である。
+S 式スプレッドシート
+リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
+セルに以下のような式を入れると計算するようにしてみた。ref i j は 「i 列目 j 行目 の値を参照する」です。
+=@(+ (ref 0 0) (ref 0 1))
+シートのセルを s_ij で表すものとすれば、この式は s_00 と s_01 の和ということになります。
 で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&mldr;ってものを作りたい。
-おわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
+おわりに
+このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
 以上！"><meta name=author content="yami0thiele"><link rel=canonical href=http://localhost:1313/posts/20241103_my-recent-interest-202411/><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=ja href=http://localhost:1313/posts/20241103_my-recent-interest-202411/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="最近の興味について (2024年11月)"><meta property="og:description" content="気づけば 11 月。１年も早いものですね。
-興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。
+興味のあるトピック
+LISP
+相変わらず。たしかこのブログをはじめたときからずっとあげている。
 お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。
-TLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
-その他 いままであげていた以下のものも適宜&mldr;
-ジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。
+TLA+
+設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
+その他
+いままであげていた以下のものも適宜&mldr;
+
+ジェネラティブ・アート
+パフォーマンス改善
+セキュリティ
+
+プロジェクト
+独学管理サービス
+完全にやりかけなので進める。
 フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。
 SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。
-S 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
-セルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。
-=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを s_ij で表すものとすれば、 s_00 と s_01 の和である。
+S 式スプレッドシート
+リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
+セルに以下のような式を入れると計算するようにしてみた。ref i j は 「i 列目 j 行目 の値を参照する」です。
+=@(+ (ref 0 0) (ref 0 1))
+シートのセルを s_ij で表すものとすれば、この式は s_00 と s_01 の和ということになります。
 で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&mldr;ってものを作りたい。
-おわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
+おわりに
+このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
 以上！"><meta property="og:type" content="article"><meta property="og:url" content="http://localhost:1313/posts/20241103_my-recent-interest-202411/"><meta property="og:image" content="http://localhost:1313/twitter-card.jpg"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-11-03T22:46:00+09:00"><meta property="article:modified_time" content="2024-11-03T22:46:00+09:00"><meta property="og:site_name" content="堕天現象論"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://localhost:1313/twitter-card.jpg"><meta name=twitter:title content="最近の興味について (2024年11月)"><meta name=twitter:description content="気づけば 11 月。１年も早いものですね。
-興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。
+興味のあるトピック
+LISP
+相変わらず。たしかこのブログをはじめたときからずっとあげている。
 お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。
-TLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
-その他 いままであげていた以下のものも適宜&mldr;
-ジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。
+TLA+
+設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
+その他
+いままであげていた以下のものも適宜&mldr;
+
+ジェネラティブ・アート
+パフォーマンス改善
+セキュリティ
+
+プロジェクト
+独学管理サービス
+完全にやりかけなので進める。
 フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。
 SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。
-S 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
-セルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。
-=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを s_ij で表すものとすれば、 s_00 と s_01 の和である。
+S 式スプレッドシート
+リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
+セルに以下のような式を入れると計算するようにしてみた。ref i j は 「i 列目 j 行目 の値を参照する」です。
+=@(+ (ref 0 0) (ref 0 1))
+シートのセルを s_ij で表すものとすれば、この式は s_00 と s_01 の和ということになります。
 で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&mldr;ってものを作りたい。
-おわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
-以上！"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"最近の興味について (2024年11月)","item":"http://localhost:1313/posts/20241103_my-recent-interest-202411/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"最近の興味について (2024年11月)","name":"最近の興味について (2024年11月)","description":"気づけば 11 月。１年も早いものですね。\n興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。\nお仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。\nTLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。\nその他 いままであげていた以下のものも適宜\u0026hellip;\nジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。\nフロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。\nSQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。\nS 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。\nセルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。\n=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを s_ij で表すものとすれば、 s_00 と s_01 の和である。\nで、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり\u0026hellip;ってものを作りたい。\nおわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。\n以上！","keywords":["興味"],"articleBody":"気づけば 11 月。１年も早いものですね。\n興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。\nお仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。\nTLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。\nその他 いままであげていた以下のものも適宜…\nジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。\nフロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。\nSQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。\nS 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。\nセルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。\n=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを s_ij で表すものとすれば、 s_00 と s_01 の和である。\nで、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり…ってものを作りたい。\nおわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。\n以上！\n","wordCount":"67","inLanguage":"ja","image":"http://localhost:1313/twitter-card.jpg","datePublished":"2024-11-03T22:46:00+09:00","dateModified":"2024-11-03T22:46:00+09:00","author":{"@type":"Person","name":"yami0thiele"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/20241103_my-recent-interest-202411/"},"publisher":{"@type":"Organization","name":"堕天現象論","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="堕天現象論 (Alt + H)">堕天現象論</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/categories/ title=categories><span>categories</span></a></li><li><a href=http://localhost:1313/tags/ title=tags><span>tags</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>ホーム</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">最近の興味について (2024年11月)</h1><div class=post-meta><span title='2024-11-03 22:46:00 +0900 JST'>2024年 11月 3日</span>&nbsp;·&nbsp;yami0thiele&nbsp;|&nbsp;<a href=https://github.com/yami0thiele/y0t-blog/blob/master/content/posts/20241103_my-recent-interest-202411.md rel="noopener noreferrer" target=_blank>Suggest Changes</a></div></header><div class=post-content><p>気づけば 11 月。１年も早いものですね。</p><h2 id=興味のあるトピック>興味のあるトピック<a hidden class=anchor aria-hidden=true href=#興味のあるトピック>#</a></h2><h3 id=lisp>LISP<a hidden class=anchor aria-hidden=true href=#lisp>#</a></h3><p>相変わらず。たしかこのブログをはじめたときからずっとあげている。</p><p>お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　<code>[method, ...rest]</code> が候補にあがるようになった。</p><h3 id=tla>TLA+<a hidden class=anchor aria-hidden=true href=#tla>#</a></h3><p>設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。</p><h3 id=その他>その他<a hidden class=anchor aria-hidden=true href=#その他>#</a></h3><p>いままであげていた以下のものも適宜&mldr;</p><ul><li>ジェネラティブ・アート</li><li>パフォーマンス改善</li><li>セキュリティ</li></ul><h2 id=プロジェクト>プロジェクト<a hidden class=anchor aria-hidden=true href=#プロジェクト>#</a></h2><h3 id=独学管理サービスhttpsgithubcomyami0thieleself-learning-manager><a href=https://github.com/yami0thiele/self-learning-manager>独学管理サービス</a><a hidden class=anchor aria-hidden=true href=#独学管理サービスhttpsgithubcomyami0thieleself-learning-manager>#</a></h3><p>完全にやりかけなので進める。</p><p>フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。</p><p>SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。</p><h3 id=s-式スプレッドシートhttpsgithubcomyami0thielews-simple-spreadsheet><a href=https://github.com/yami0thiele/ws-simple-spreadsheet>S 式スプレッドシート</a><a hidden class=anchor aria-hidden=true href=#s-式スプレッドシートhttpsgithubcomyami0thielews-simple-spreadsheet>#</a></h3><p>リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。</p><p>セルに以下のような式を入れると計算するようにしてみた。なお、<code>ref i j</code> は 「i 列目 j 行目をの値を参照する」である。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-lisp data-lang=lisp><span class=line><span class=cl><span class=nv>=@</span><span class=p>(</span><span class=nf>+</span> <span class=p>(</span><span class=nv>ref</span> <span class=mi>0</span> <span class=mi>0</span><span class=p>)</span> <span class=p>(</span><span class=nv>ref</span> <span class=mi>0</span> <span class=mi>1</span><span class=p>))</span>
-</span></span></code></pre></div><p>この式は全体としては シートのセルを <code>s_ij</code> で表すものとすれば、 <code>s_00</code> と <code>s_01</code> の和である。</p><p>で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&mldr;ってものを作りたい。</p><h2 id=おわりに>おわりに<a hidden class=anchor aria-hidden=true href=#おわりに>#</a></h2><p>このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。</p><p>以上！</p></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/%E8%88%88%E5%91%B3/>興味</a></li></ul><nav class=paginav><a class=next href=http://localhost:1313/posts/20241003_true-one-way-traffic-medium/><span class=title>次へ »</span><br><span>真に一方通行なメディア</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>堕天現象論</a></span> ·
+おわりに
+このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
+以上！"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"http://localhost:1313/posts/"},{"@type":"ListItem","position":2,"name":"最近の興味について (2024年11月)","item":"http://localhost:1313/posts/20241103_my-recent-interest-202411/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"最近の興味について (2024年11月)","name":"最近の興味について (2024年11月)","description":"気づけば 11 月。１年も早いものですね。\n興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。\nお仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。\nTLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。\nその他 いままであげていた以下のものも適宜\u0026hellip;\nジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。\nフロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。\nSQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。\nS 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。\nセルに以下のような式を入れると計算するようにしてみた。ref i j は 「i 列目 j 行目 の値を参照する」です。\n=@(+ (ref 0 0) (ref 0 1)) シートのセルを s_ij で表すものとすれば、この式は s_00 と s_01 の和ということになります。\nで、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり\u0026hellip;ってものを作りたい。\nおわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。\n以上！\n","keywords":["興味"],"articleBody":"気づけば 11 月。１年も早いものですね。\n興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。\nお仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。\nTLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。\nその他 いままであげていた以下のものも適宜…\nジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。\nフロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。\nSQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。\nS 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。\nセルに以下のような式を入れると計算するようにしてみた。ref i j は 「i 列目 j 行目 の値を参照する」です。\n=@(+ (ref 0 0) (ref 0 1)) シートのセルを s_ij で表すものとすれば、この式は s_00 と s_01 の和ということになります。\nで、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり…ってものを作りたい。\nおわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。\n以上！\n","wordCount":"67","inLanguage":"ja","image":"http://localhost:1313/twitter-card.jpg","datePublished":"2024-11-03T22:46:00+09:00","dateModified":"2024-11-03T22:46:00+09:00","author":{"@type":"Person","name":"yami0thiele"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:1313/posts/20241103_my-recent-interest-202411/"},"publisher":{"@type":"Organization","name":"堕天現象論","logo":{"@type":"ImageObject","url":"http://localhost:1313/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="堕天現象論 (Alt + H)">堕天現象論</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/categories/ title=categories><span>categories</span></a></li><li><a href=http://localhost:1313/tags/ title=tags><span>tags</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=http://localhost:1313/>ホーム</a>&nbsp;»&nbsp;<a href=http://localhost:1313/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">最近の興味について (2024年11月)</h1><div class=post-meta><span title='2024-11-03 22:46:00 +0900 JST'>2024年 11月 3日</span>&nbsp;·&nbsp;yami0thiele&nbsp;|&nbsp;<a href=https://github.com/yami0thiele/y0t-blog/blob/master/content/posts/20241103_my-recent-interest-202411.md rel="noopener noreferrer" target=_blank>Suggest Changes</a></div></header><div class=post-content><p>気づけば 11 月。１年も早いものですね。</p><h2 id=興味のあるトピック>興味のあるトピック<a hidden class=anchor aria-hidden=true href=#興味のあるトピック>#</a></h2><h3 id=lisp>LISP<a hidden class=anchor aria-hidden=true href=#lisp>#</a></h3><p>相変わらず。たしかこのブログをはじめたときからずっとあげている。</p><p>お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　<code>[method, ...rest]</code> が候補にあがるようになった。</p><h3 id=tla>TLA+<a hidden class=anchor aria-hidden=true href=#tla>#</a></h3><p>設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。</p><h3 id=その他>その他<a hidden class=anchor aria-hidden=true href=#その他>#</a></h3><p>いままであげていた以下のものも適宜&mldr;</p><ul><li>ジェネラティブ・アート</li><li>パフォーマンス改善</li><li>セキュリティ</li></ul><h2 id=プロジェクト>プロジェクト<a hidden class=anchor aria-hidden=true href=#プロジェクト>#</a></h2><h3 id=独学管理サービスhttpsgithubcomyami0thieleself-learning-manager><a href=https://github.com/yami0thiele/self-learning-manager>独学管理サービス</a><a hidden class=anchor aria-hidden=true href=#独学管理サービスhttpsgithubcomyami0thieleself-learning-manager>#</a></h3><p>完全にやりかけなので進める。</p><p>フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。</p><p>SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。</p><h3 id=s-式スプレッドシートhttpsgithubcomyami0thielews-simple-spreadsheet><a href=https://github.com/yami0thiele/ws-simple-spreadsheet>S 式スプレッドシート</a><a hidden class=anchor aria-hidden=true href=#s-式スプレッドシートhttpsgithubcomyami0thielews-simple-spreadsheet>#</a></h3><p>リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。</p><p>セルに以下のような式を入れると計算するようにしてみた。<code>ref i j</code> は 「i 列目 j 行目 の値を参照する」です。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-lisp data-lang=lisp><span class=line><span class=cl><span class=nv>=@</span><span class=p>(</span><span class=nf>+</span> <span class=p>(</span><span class=nv>ref</span> <span class=mi>0</span> <span class=mi>0</span><span class=p>)</span> <span class=p>(</span><span class=nv>ref</span> <span class=mi>0</span> <span class=mi>1</span><span class=p>))</span>
+</span></span></code></pre></div><p>シートのセルを <code>s_ij</code> で表すものとすれば、この式は <code>s_00</code> と <code>s_01</code> の和ということになります。</p><p>で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&mldr;ってものを作りたい。</p><h2 id=おわりに>おわりに<a hidden class=anchor aria-hidden=true href=#おわりに>#</a></h2><p>このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。</p><p>以上！</p></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/%E8%88%88%E5%91%B3/>興味</a></li></ul><nav class=paginav><a class=prev href=http://localhost:1313/posts/20241112_setup-my-first-mac/><span class=title>« 前へ</span><br><span>Mac mini (2024)</span>
+</a><a class=next href=http://localhost:1313/posts/20241003_true-one-way-traffic-medium/><span class=title>次へ »</span><br><span>真に一方通行なメディア</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>堕天現象論</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

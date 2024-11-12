@@ -9,7 +9,7 @@
       <url>http://localhost:1313/twitter-card.jpg</url>
       <link>http://localhost:1313/twitter-card.jpg</link>
     </image>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 03 Nov 2024 22:46:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E8%88%88%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
@@ -18,76 +18,178 @@
       <link>http://localhost:1313/posts/20241103_my-recent-interest-202411/</link>
       <pubDate>Sun, 03 Nov 2024 22:46:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/20241103_my-recent-interest-202411/</guid>
-      <description>気づけば 11 月。１年も早いものですね。
-興味のあるトピック LISP 相変わらず。たしかこのブログをはじめたときからずっとあげている。
-お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　[method, ...rest] が候補にあがるようになった。
-TLA+ 設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。
-その他 いままであげていた以下のものも適宜&amp;hellip;
-ジェネラティブ・アート パフォーマンス改善 セキュリティ プロジェクト 独学管理サービス 完全にやりかけなので進める。
-フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。
-SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。
-S 式スプレッドシート リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。
-セルに以下のような式を入れると計算するようにしてみた。なお、ref i j は 「i 列目 j 行目をの値を参照する」である。
-=@(+ (ref 0 0) (ref 0 1)) この式は全体としては シートのセルを $s_{ij}$ で表すものとすれば、 $s_{00}$ $s_{01}$ の和である。
-で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&amp;hellip;ってものを作りたい。
-おわりに このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。
-以上！</description>
+      <description>&lt;p&gt;気づけば 11 月。１年も早いものですね。&lt;/p&gt;
+&lt;h2 id=&#34;興味のあるトピック&#34;&gt;興味のあるトピック&lt;/h2&gt;
+&lt;h3 id=&#34;lisp&#34;&gt;LISP&lt;/h3&gt;
+&lt;p&gt;相変わらず。たしかこのブログをはじめたときからずっとあげている。&lt;/p&gt;
+&lt;p&gt;お仕事で「個社に合わせた任意のコード差し込み」みたいな話が出てきたらとりあえず S 式的なもの　&lt;code&gt;[method, ...rest]&lt;/code&gt; が候補にあがるようになった。&lt;/p&gt;
+&lt;h3 id=&#34;tla&#34;&gt;TLA+&lt;/h3&gt;
+&lt;p&gt;設計をちゃんとできるようになりたいなと思って。とはいえそこまで厳密にモデル検査したいわけではなく、「数学的記号に表せる程度にちゃんと言葉を定義できる」というところを目指す。&lt;/p&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;p&gt;いままであげていた以下のものも適宜&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ジェネラティブ・アート&lt;/li&gt;
+&lt;li&gt;パフォーマンス改善&lt;/li&gt;
+&lt;li&gt;セキュリティ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プロジェクト&#34;&gt;プロジェクト&lt;/h2&gt;
+&lt;h3 id=&#34;独学管理サービスhttpsgithubcomyami0thieleself-learning-manager&#34;&gt;&lt;a href=&#34;https://github.com/yami0thiele/self-learning-manager&#34;&gt;独学管理サービス&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;完全にやりかけなので進める。&lt;/p&gt;
+&lt;p&gt;フロントエンド側がほとんど経験がないので、React とか TailwindCSS とか言っている場合じゃなく、HTML + CSS くらいのところから勉強しないといけない。とりあえずレーニンノートを完成させる。&lt;/p&gt;
+&lt;p&gt;SQLite に全文検索(FTS)があることは知らなかった。このプロジェクトで GitLab の類似 Issue の抽出みたいな形で使えた。&lt;/p&gt;
+&lt;h3 id=&#34;s-式スプレッドシートhttpsgithubcomyami0thielews-simple-spreadsheet&#34;&gt;&lt;a href=&#34;https://github.com/yami0thiele/ws-simple-spreadsheet&#34;&gt;S 式スプレッドシート&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;リンク先は単に WebSocket を検証するにあたってそれっぽいアプリになっているほうが面白いと思って作ったリポジトリ。&lt;/p&gt;
+&lt;p&gt;セルに以下のような式を入れると計算するようにしてみた。&lt;code&gt;ref i j&lt;/code&gt; は 「i 列目 j 行目 の値を参照する」です。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;=@&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;ref&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;ref&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;シートのセルを &lt;code&gt;s_ij&lt;/code&gt; で表すものとすれば、この式は &lt;code&gt;s_00&lt;/code&gt; と &lt;code&gt;s_01&lt;/code&gt; の和ということになります。&lt;/p&gt;
+&lt;p&gt;で、これはやってみて中々面白そうだなって思ったので、もう少しちゃんと作ってみたいと思っています。マクロ作ったり自分で関数定義できたり&amp;hellip;ってものを作りたい。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;このブログのテーマを作り変えるってこと自体もいつかのトピックにしたい。&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
     </item>
     <item>
       <title>最近の興味について (2024年10月)</title>
       <link>http://localhost:1313/posts/20241002_my-recent-interest-202410/</link>
       <pubDate>Wed, 02 Oct 2024 22:41:09 +0900</pubDate>
       <guid>http://localhost:1313/posts/20241002_my-recent-interest-202410/</guid>
-      <description>常に「やりたいことリスト」は持っておいたほうが良いと思っているので、今月分。
-興味のあるトピック パフォーマンス改善 CS を学んできたわけではないので、結局コンピュータが実際に何をやっているかというところの知識がなく、CPU とかメモリとかまで考えるのが疎かになってるので、ちゃんと学んでおきたい気持ち。
-ジェネラティブ・アート 『ジェネラティブ・アート Processing による実践ガイド』って本を買ってまったく読めてないのに『Designing Math.』って本買って積んでいるので読む。
-(それはそれとして普通に手で絵が描けるようになりたいのでそれもやっていきたいね。)
-Emacs 実は使いやすいんではないか&amp;hellip;？と思って試してみているところ。チュートリアルをかじった感じは Vim より人間味があるような気がしないでもない&amp;hellip;
-多分わたしの心のどこかに関数型パラダイムへの信仰がある。
-プロジェクト 独学管理サービス 読書猿さんの『独学大全』の中でやってみたいと思ったもののうち、システム化すれば面白そうなものをシステム化する。 まずは「レーニンノート」から。要するに本の抜き出しとコメントを記録するだけ。紙のノートは grep できないからね。全文検索くらいはできるようにしたいね。
-レーニンノートって名前は知らなかったけど、似たようなものはゆる言語学ラジオの堀元見さんのビジネス書 100 冊読むってやつの配信で見たことがある。切り抜き＋ツッコミっていい構成だなと思って頭に残っていたのでとりあえずこれを実装してみる。
-使おうとしているもの 共通: Bun, Biome サーバーサイド: Koa フロントエンド: Vite + React / Tailwind Koa にしたのは結構シンプルに使えそうだったから。 Bun やら Biome は名前だけ聞いたことあって使ってみたかったから。Bun すっごい早い。
-おわりに また 1 つ歳をとってしまった。（先月 3 週目くらい）
-以上！</description>
+      <description>&lt;p&gt;常に「やりたいことリスト」は持っておいたほうが良いと思っているので、今月分。&lt;/p&gt;
+&lt;h2 id=&#34;興味のあるトピック&#34;&gt;興味のあるトピック&lt;/h2&gt;
+&lt;h3 id=&#34;パフォーマンス改善httpswwwcomputerenhancecom&#34;&gt;&lt;a href=&#34;https://www.computerenhance.com&#34;&gt;パフォーマンス改善&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;CS を学んできたわけではないので、結局コンピュータが実際に何をやっているかというところの知識がなく、CPU とかメモリとかまで考えるのが疎かになってるので、ちゃんと学んでおきたい気持ち。&lt;/p&gt;
+&lt;h3 id=&#34;ジェネラティブアート&#34;&gt;ジェネラティブ・アート&lt;/h3&gt;
+&lt;p&gt;『ジェネラティブ・アート Processing による実践ガイド』って本を買ってまったく読めてないのに『Designing Math.』って本買って積んでいるので読む。&lt;/p&gt;
+&lt;p&gt;(それはそれとして普通に手で絵が描けるようになりたいのでそれもやっていきたいね。)&lt;/p&gt;
+&lt;h3 id=&#34;emacs&#34;&gt;Emacs&lt;/h3&gt;
+&lt;p&gt;実は使いやすいんではないか&amp;hellip;？と思って試してみているところ。チュートリアルをかじった感じは Vim より人間味があるような気がしないでもない&amp;hellip;&lt;/p&gt;
+&lt;p&gt;多分わたしの心のどこかに関数型パラダイムへの信仰がある。&lt;/p&gt;
+&lt;h2 id=&#34;プロジェクト&#34;&gt;プロジェクト&lt;/h2&gt;
+&lt;h3 id=&#34;独学管理サービスhttpsgithubcomyami0thieleself-learning-manager&#34;&gt;&lt;a href=&#34;https://github.com/yami0thiele/self-learning-manager&#34;&gt;独学管理サービス&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;読書猿さんの『独学大全』の中でやってみたいと思ったもののうち、システム化すれば面白そうなものをシステム化する。
+まずは「レーニンノート」から。要するに本の抜き出しとコメントを記録するだけ。紙のノートは grep できないからね。全文検索くらいはできるようにしたいね。&lt;/p&gt;
+&lt;p&gt;レーニンノートって名前は知らなかったけど、似たようなものはゆる言語学ラジオの堀元見さんのビジネス書 100 冊読むってやつの配信で見たことがある。切り抜き＋ツッコミっていい構成だなと思って頭に残っていたのでとりあえずこれを実装してみる。&lt;/p&gt;
+&lt;h4 id=&#34;使おうとしているもの&#34;&gt;使おうとしているもの&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;共通: Bun, Biome&lt;/li&gt;
+&lt;li&gt;サーバーサイド: Koa&lt;/li&gt;
+&lt;li&gt;フロントエンド: Vite + React / Tailwind&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Koa にしたのは結構シンプルに使えそうだったから。 Bun やら Biome は名前だけ聞いたことあって使ってみたかったから。Bun すっごい早い。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;また 1 つ歳をとってしまった。（先月 3 週目くらい）&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
     </item>
     <item>
       <title>最近の興味について (2024年9月)</title>
       <link>http://localhost:1313/posts/20240829_my-recent-interest-202409/</link>
       <pubDate>Thu, 29 Aug 2024 21:50:22 +0900</pubDate>
       <guid>http://localhost:1313/posts/20240829_my-recent-interest-202409/</guid>
-      <description>正直 8 月の興味 で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。
-興味のあるトピック Rust (New!) LISP Generative Art リバースエンジニアリング ホームラボ (New!) Fullstack TypeScript Vite + React + Tanstack Router / Tailwind Hono 読みたいもの 手元にあるかネット上にあるので読んでおきたいものたち。
-Rust in Action Reverse Engineering For Everyone! 計算機プログラムの構造と解釈 基礎から学ぶ組込み Rust ジェネラティブ・アート Processing による実践ガイド テーマ マスタデータ管理ツール マスタデータ自体が何らかの 1 対多 の関係をもっていて、それが何らかのサロゲートキーで関連づいているときにそのマスタデータのメンテナンスが面倒だなっていう所管。
-マスタデータに関連する ER 図を書いたらいい感じにマスタデータの登録フォームとビジュアル化＋クエリでのエクスポートをしてくれるようなのがほしい。
--&amp;gt; そもそも前段として、Entity からそのままフォームを起こすくらいのことをやってみる。何も難しくないはず。
-アイキャッチ画像生成 (Generative Art) p5.js を使ってアルゴリズムで画像を生成する は結果的にそうなったわけだけど、記事に 1 枚くらい画像がほしいし Twitter Card 的なところに出てくるような画像がほしい。
-このブログにおいては記事に当てはまる画像というのが定まることはないので、何か適当に幾何学的なのがあればいい。 ということで用意する。
-記事全体から導出したなにかを生成の過程に突っ込めば実質的に記事に対する署名になる（？）
-おわりに 今月ひどく体調崩してたので 9 月は健康でいたいですね。
-以上！</description>
+      <description>&lt;p&gt;正直 &lt;a href=&#34;http://localhost:1313/posts/20240807_my-recent-interest-202408/&#34;&gt;8 月の興味&lt;/a&gt; で述べた分も全くできていないのだけど、色々興味だけは出てくるのでそのメモ。&lt;/p&gt;
+&lt;h2 id=&#34;興味のあるトピック&#34;&gt;興味のあるトピック&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust (New!)&lt;/li&gt;
+&lt;li&gt;LISP&lt;/li&gt;
+&lt;li&gt;Generative Art&lt;/li&gt;
+&lt;li&gt;リバースエンジニアリング&lt;/li&gt;
+&lt;li&gt;ホームラボ (New!)&lt;/li&gt;
+&lt;li&gt;Fullstack TypeScript
+&lt;ul&gt;
+&lt;li&gt;Vite + React + Tanstack Router / Tailwind&lt;/li&gt;
+&lt;li&gt;Hono&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;読みたいもの&#34;&gt;読みたいもの&lt;/h2&gt;
+&lt;p&gt;手元にあるかネット上にあるので読んでおきたいものたち。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://livebook.manning.com/book/rust-in-action/chapter-1/6&#34;&gt;Rust in Action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://0xinfection.github.io/reversing/&#34;&gt;Reverse Engineering For Everyone!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;計算機プログラムの構造と解釈&lt;/li&gt;
+&lt;li&gt;基礎から学ぶ組込み Rust&lt;/li&gt;
+&lt;li&gt;ジェネラティブ・アート Processing による実践ガイド&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;テーマ&#34;&gt;テーマ&lt;/h2&gt;
+&lt;h3 id=&#34;マスタデータ管理ツール&#34;&gt;マスタデータ管理ツール&lt;/h3&gt;
+&lt;p&gt;マスタデータ自体が何らかの 1 対多 の関係をもっていて、それが何らかのサロゲートキーで関連づいているときにそのマスタデータのメンテナンスが面倒だなっていう所管。&lt;/p&gt;
+&lt;p&gt;マスタデータに関連する ER 図を書いたらいい感じにマスタデータの登録フォームとビジュアル化＋クエリでのエクスポートをしてくれるようなのがほしい。&lt;/p&gt;
+&lt;p&gt;-&amp;gt; そもそも前段として、Entity からそのままフォームを起こすくらいのことをやってみる。何も難しくないはず。&lt;/p&gt;
+&lt;h3 id=&#34;アイキャッチ画像生成-generative-art&#34;&gt;アイキャッチ画像生成 (Generative Art)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/20240808_my-first-p5js/&#34;&gt;p5.js を使ってアルゴリズムで画像を生成する&lt;/a&gt; は結果的にそうなったわけだけど、記事に 1 枚くらい画像がほしいし Twitter Card 的なところに出てくるような画像がほしい。&lt;/p&gt;
+&lt;p&gt;このブログにおいては記事に当てはまる画像というのが定まることはないので、何か適当に幾何学的なのがあればいい。
+ということで用意する。&lt;/p&gt;
+&lt;p&gt;記事全体から導出したなにかを生成の過程に突っ込めば実質的に記事に対する署名になる（？）&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;今月ひどく体調崩してたので 9 月は健康でいたいですね。&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
     </item>
     <item>
       <title>p5.jsを使ってアルゴリズムで画像を生成する</title>
       <link>http://localhost:1313/posts/20240808_my-first-p5js/</link>
       <pubDate>Thu, 08 Aug 2024 21:53:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/20240808_my-first-p5js/</guid>
-      <description>できあがったもの カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。
-回りくどい AI 生成画像（？）
-コード 変えたのは 三角形のサイズと rotation の箇所くらい。 random(4) * HALF_PI だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。
-random(2) * PI だと秩序が見えすぎたから無駄なことしてる。
-function setup() { createCanvas(600, 600); noStroke(); } function draw() { // 色の配列 const colors = [&amp;#39;#E9C46A&amp;#39;, &amp;#39;#F4A261&amp;#39;, &amp;#39;#E76F51&amp;#39;, &amp;#39;#2A9D8F&amp;#39;, &amp;#39;#264653&amp;#39;]; let size = 50; // 三角形のサイズ for (let x = 0; x &amp;lt; width; x += size) { for (let y = 0; y &amp;lt; height; y += size) { // ランダムに色を選ぶ let randomIndex = floor(random(colors.</description>
+      <description>&lt;h2 id=&#34;できあがったもの&#34;&gt;できあがったもの&lt;/h2&gt;
+&lt;p&gt;カラフルな三角形のパターンが作りたいなって思って、Gemini さんに聞いたら出来上がった。とても可愛い気がする。&lt;/p&gt;
+&lt;p&gt;回りくどい AI 生成画像（？）&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;カラフルな三角形&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/colorful-triangle.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;コード&#34;&gt;コード&lt;/h2&gt;
+&lt;p&gt;変えたのは 三角形のサイズと rotation の箇所くらい。 &lt;code&gt;random(4) * HALF_PI&lt;/code&gt; だったので 左右の三角もあった。左右まであるとちょっとうるさいなって思ったので上下だけにした。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;random(2) * PI&lt;/code&gt; だと秩序が見えすぎたから無駄なことしてる。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js:sketch.js&#34; data-lang=&#34;js:sketch.js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;setup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;createCanvas&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;600&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;600&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;noStroke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;draw&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;c1&#34;&gt;// 色の配列
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;colors&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;#E9C46A&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#F4A261&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#E76F51&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#2A9D8F&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;#264653&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 三角形のサイズ
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;c1&#34;&gt;// ランダムに色を選ぶ
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;      &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomIndex&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;randomIndex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;c1&#34;&gt;// 三角形をランダムに回転させる
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;      &lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;rotation&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PI&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 0, 60, 120, 180, 240, 300
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;      &lt;span class=&#34;nx&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;translate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;rotate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;rotation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;triangle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;noLoop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;思うこと&#34;&gt;思うこと&lt;/h2&gt;
+&lt;p&gt;こういうパターン系の模様ってとっても好きなのでいろいろやってみたい。&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
     </item>
     <item>
       <title>最近の興味について (2024年8月)</title>
       <link>http://localhost:1313/posts/20240807_my-recent-interest-202408/</link>
       <pubDate>Wed, 07 Aug 2024 21:58:22 +0900</pubDate>
       <guid>http://localhost:1313/posts/20240807_my-recent-interest-202408/</guid>
-      <description>いろいろ見ててやりたくなったものをつらつら。
-興味のあるトピック Generative Art LISP 組み込み リバースエンジニアリング SQLite テーマ ノードをつなげてつくる Generative Art 円を描画するとか、再帰とか、何かノードを定義してそれを繋げて実行すれば何らかの画像が生成されるってもの。
-SQLite + LiteStream + S3 での格安 RDB RDB が結局マネージドだと高いしそうはいっても自分でちゃんと面倒みるのいやなので、安くて楽な手段がほしい。上記構成が面白そうなので調べる。
-パスワードマネージャー (プリントベース) いつでもどこでもパスワードマネージャが使えるわけじゃないので、紙に払い出す手段はほしい。 ようするに「パスワード管理カード」みたいなのを生成する仕組みと、人間にとってそこまで大変ではない方法でパスワードを抽出する手段を生成・保管する仕組みを作る。
-おわりに 本当にやるかどうかは未定。
-以上！</description>
+      <description>&lt;p&gt;いろいろ見ててやりたくなったものをつらつら。&lt;/p&gt;
+&lt;h2 id=&#34;興味のあるトピック&#34;&gt;興味のあるトピック&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generative Art&lt;/li&gt;
+&lt;li&gt;LISP&lt;/li&gt;
+&lt;li&gt;組み込み&lt;/li&gt;
+&lt;li&gt;リバースエンジニアリング&lt;/li&gt;
+&lt;li&gt;SQLite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;テーマ&#34;&gt;テーマ&lt;/h2&gt;
+&lt;h3 id=&#34;ノードをつなげてつくる-generative-art&#34;&gt;ノードをつなげてつくる Generative Art&lt;/h3&gt;
+&lt;p&gt;円を描画するとか、再帰とか、何かノードを定義してそれを繋げて実行すれば何らかの画像が生成されるってもの。&lt;/p&gt;
+&lt;h3 id=&#34;sqlite--litestream--s3-での格安-rdb&#34;&gt;SQLite + LiteStream + S3 での格安 RDB&lt;/h3&gt;
+&lt;p&gt;RDB が結局マネージドだと高いしそうはいっても自分でちゃんと面倒みるのいやなので、安くて楽な手段がほしい。上記構成が面白そうなので調べる。&lt;/p&gt;
+&lt;h3 id=&#34;パスワードマネージャー-プリントベース&#34;&gt;パスワードマネージャー (プリントベース)&lt;/h3&gt;
+&lt;p&gt;いつでもどこでもパスワードマネージャが使えるわけじゃないので、紙に払い出す手段はほしい。
+ようするに「パスワード管理カード」みたいなのを生成する仕組みと、人間にとってそこまで大変ではない方法でパスワードを抽出する手段を生成・保管する仕組みを作る。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに&lt;/h2&gt;
+&lt;p&gt;本当にやるかどうかは未定。&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
