@@ -9,10 +9,38 @@
       <url>http://localhost:1313/twitter-card.jpg</url>
       <link>http://localhost:1313/twitter-card.jpg</link>
     </image>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Nov 2024 22:41:08 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2024 21:47:47 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最近の興味について (2024年12月)</title>
+      <link>http://localhost:1313/posts/20241202_my-recent-interest-202412/</link>
+      <pubDate>Mon, 02 Dec 2024 21:47:47 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20241202_my-recent-interest-202412/</guid>
+      <description>&lt;p&gt;とうとう12月になりました。今年は何をやったかな&amp;hellip;？&lt;/p&gt;
+&lt;h2 id=&#34;興味のあるトピック&#34;&gt;興味のあるトピック&lt;/h2&gt;
+&lt;h3 id=&#34;アーキテクチャとかソフトウェア設計とかプログラミングの方法論とか&#34;&gt;アーキテクチャとかソフトウェア設計とかプログラミングの方法論とか&lt;/h3&gt;
+&lt;p&gt;お仕事であれこれアプリケーションの設計を任されるようになったので、これらに関係するものをいくらか。&lt;/p&gt;
+&lt;h4 id=&#34;データ指向プログラミング-yehonathan-sharvit&#34;&gt;データ指向プログラミング (Yehonathan Sharvit)&lt;/h4&gt;
+&lt;p&gt;管理しきれなくなった無茶苦茶なモデルを経験してきているので、データとコードを分離してしまおうというのは一定の理解ができるし、概念データモデルは書いてもそれにメソッドを生やしてクラス図を書くということはないので、割とその点でこのアプローチに近い設計をしていそうだなと思っている。&lt;/p&gt;
+&lt;p&gt;とりあえず1章を読んだ限りは面白いのだけど、今のところは極端すぎる気がするので良い塩梅を求めていきたいところ&amp;hellip;&lt;/p&gt;
+&lt;h4 id=&#34;エリックエヴァンスのドメイン駆動設計&#34;&gt;エリック・エヴァンスのドメイン駆動設計&lt;/h4&gt;
+&lt;p&gt;この本、何度読んでは積むを繰り返してきたかわからないのですが、そろそろちゃんと読もうと思います。この本と上の本とがある程度ぶつかり合うはずなのでちょうどいい部分を追求できるんじゃないでしょうかね？&lt;/p&gt;
+&lt;h3 id=&#34;言語とか&#34;&gt;言語とか&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LISP&lt;/li&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一方はだいぶ古くて一方は新しい言語だと思うのでこれもいいバランスになるんじゃないでしょうか？&lt;/p&gt;
+&lt;h2 id=&#34;プロジェクト&#34;&gt;プロジェクト&lt;/h2&gt;
+&lt;p&gt;なんかもっと本来的に自分がやりたいことってなんだろう&amp;hellip;？ってなりつつ&lt;/p&gt;
+&lt;h3 id=&#34;独学管理サービスhttpsgithubcomyami0thieleself-learning-manager&#34;&gt;&lt;a href=&#34;https://github.com/yami0thiele/self-learning-manager&#34;&gt;独学管理サービス&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;バックエンドはなんとでもなると思うのでとりあえずフロントエンドを勉強しつつ、ある程度身につけたら再開する。&lt;/p&gt;
+&lt;h3 id=&#34;おわりに&#34;&gt;おわりに&lt;/h3&gt;
+&lt;p&gt;多分あっという間に12月が終わるので、次の抱負とか考えておかないとですね。&lt;/p&gt;
+&lt;p&gt;以上！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mac mini (2024)</title>
       <link>http://localhost:1313/posts/20241112_setup-my-first-mac/</link>
