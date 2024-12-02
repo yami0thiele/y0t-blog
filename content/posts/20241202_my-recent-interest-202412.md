@@ -1,8 +1,8 @@
 +++
 title = '最近の興味について (2024年12月)'
 date = 2024-12-02T21:47:47+09:00
-tags = ["意味無し"]
-categories = ["未分類"]
+tags = ["興味"]
+categories = ["デジタル"]
 draft = false
 +++
 

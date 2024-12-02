@@ -11,7 +11,10 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-02T21:47:47+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</loc>
+    <loc>http://localhost:1313/categories/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB/</loc>
+    <lastmod>2024-12-02T21:47:47+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%88%88%E5%91%B3/</loc>
     <lastmod>2024-12-02T21:47:47+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/20241202_my-recent-interest-202412/</loc>
@@ -20,22 +23,19 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-02T21:47:47+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/</loc>
-    <lastmod>2024-12-02T21:47:47+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/20241112_setup-my-first-mac/</loc>
     <lastmod>2024-11-12T22:41:08+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB/</loc>
+    <loc>http://localhost:1313/tags/%E6%84%8F%E5%91%B3%E7%84%A1%E3%81%97/</loc>
     <lastmod>2024-11-12T22:41:08+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%88%88%E5%91%B3/</loc>
-    <lastmod>2024-11-03T22:46:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/20241103_my-recent-interest-202411/</loc>
     <lastmod>2024-11-03T22:46:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/20241003_true-one-way-traffic-medium/</loc>
+    <lastmod>2024-10-02T23:10:38+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/</loc>
     <lastmod>2024-10-02T23:10:38+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/20241002_my-recent-interest-202410/</loc>
